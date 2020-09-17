@@ -1,0 +1,245 @@
+    body {
+        background-color: #000000;
+    }
+    
+    .base {
+        position: absolute;
+        left: 34.6%;
+        margin: 0 auto;
+        float: none;
+        margin-bottom: 10px;
+        height: 95vh;
+        top: 20px;
+        border-radius: 10px;
+        width: 416px;
+    }
+    
+    .head {
+        background: linear-gradient(123.75deg, #F5821F 1.87%, #FF5C00 120.46%);
+        font-family: sans-serif;
+        height: 50%;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        color: aliceblue;
+    }
+    
+    .head img {
+        width: 20px;
+        height: 30px;
+        position: absolute;
+        left: 120px;
+    }
+    
+    h1 {
+        margin-top: 16px;
+        margin-left: 56px;
+        font-size: 30px;
+        font-weight: bold;
+    }
+    
+    h4 {
+        margin-left: 56px;
+        font-size: 22px;
+        font-weight: bold;
+    }
+    
+    h6 {
+        margin-left: 56px;
+        font-size: 18px;
+        font-weight: 500;
+    }
+    
+    .chat {
+        position: absolute;
+        top: 30%;
+        width: 390px;
+        left: 35.5%;
+        height: 65%;
+        padding: 30px 30px 30px 30px;
+        background: #FFFFFF;
+        border: 1px solid #E4E4E4;
+        box-sizing: border-box;
+        box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.05);
+        border-radius: 8px;
+    }
+    
+    .head .roboticon {
+        width: 50px;
+        height: 50px;
+        position: absolute;
+        left: 28px;
+        z-index: 1;
+        background-color: #F5821F;
+        box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.15);
+    }
+    
+    .faq {
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 18px;
+    }
+    
+    .faq img {
+        width: 20px;
+        height: 20px;
+        position: absolute;
+        left: 55%;
+        z-index: 1;
+        background: rgba(251, 181, 28, 0.12);
+        box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.15);
+    }
+    
+    .card-question {
+        font-size: 12px;
+        line-height: 21px;
+        margin-bottom: 15px;
+        height: 48px;
+        padding: 10px;
+        background: #FFFFFF;
+        border: 1px solid #E1E1E1;
+        box-sizing: border-box;
+        box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.05);
+    }
+    
+    .fadeIndiv {
+        animation-delay: 1s;
+        -webkit-animation-duration: 1s;
+        animation-duration: 1s;
+        -webkit-animation-fill-mode: both;
+        animation-fill-mode: both;
+    }
+    
+    .fadeIn1 {
+        animation-delay: 2s;
+        -webkit-animation-duration: 1s;
+        animation-duration: 1s;
+        -webkit-animation-fill-mode: both;
+        animation-fill-mode: both;
+    }
+    
+    .fadeIn2 {
+        animation-delay: 3s;
+        -webkit-animation-duration: 1s;
+        animation-duration: 1s;
+        -webkit-animation-fill-mode: both;
+        animation-fill-mode: both;
+    }
+    
+    .fadeIn3 {
+        animation-delay: 4s;
+        -webkit-animation-duration: 1s;
+        animation-duration: 1s;
+        -webkit-animation-fill-mode: both;
+        animation-fill-mode: both;
+    }
+    
+    .fadeIn4 {
+        animation-delay: 5s;
+        -webkit-animation-duration: 1s;
+        animation-duration: 1s;
+        -webkit-animation-fill-mode: both;
+        animation-fill-mode: both;
+    }
+    
+    .fadeIn5 {
+        animation-delay: 6s;
+        -webkit-animation-duration: 1s;
+        animation-duration: 1s;
+        -webkit-animation-fill-mode: both;
+        animation-fill-mode: both;
+    }
+    
+    @-webkit-keyframes fadeIn1 {
+        0% {
+            opacity: 0;
+        }
+        100% {
+            opacity: 1;
+        }
+    }
+    
+    @keyframes fadeIn1 {
+        0% {
+            opacity: 0;
+        }
+        100% {
+            opacity: 1;
+        }
+    }
+    
+    .fadeIn1,
+    .fadeIn2,
+    .fadeIn3,
+    .fadeIn4,
+    .fadeIn5,
+    .fadeIndiv {
+        -webkit-animation-name: fadeIndiv;
+        animation-name: fadeIndiv;
+    }
+    /* div fade */
+    
+    @-webkit-keyframes fadeIndiv {
+        0% {
+            opacity: 0;
+        }
+        100% {
+            opacity: 1;
+        }
+    }
+    
+    @keyframes fadeIndiv {
+        0% {
+            opacity: 0;
+        }
+        100% {
+            opacity: 1;
+        }
+    }
+    
+    .fadeIndiv {
+        -webkit-animation-name: fadeIndiv;
+        animation-name: fadeIndiv;
+    }
+    
+    .dot {
+        height: 7px;
+        width: 7px;
+        background-color: #F5821F;
+        border-radius: 50%;
+        margin-top: 5px;
+        margin-right: 5px;
+        box-shadow: 0 0 0 2px#fbe0c2;
+        display: inline-block;
+    }
+    
+    .btn {
+        width: 90%;
+        margin-left: 16px;
+        margin-top: 16px;
+        background: #FFFFFF;
+        border: 1px solid #D1D1D1;
+        box-sizing: border-box;
+        box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.1);
+        border-radius: 100px;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 18px;
+    }
+    
+    .btn img {
+        width: 20px;
+        height: 30px;
+        background-color: #FFFFFF;
+    }
+    
+    .togbtn {
+        position: absolute;
+        width: 50px;
+        height: 50px;
+        position: absolute;
+        top: 90%;
+        left: 900px;
+        background-color: #F5821F;
+        box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.15);
+        z-index: 3;
+    }
